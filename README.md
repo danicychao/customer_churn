@@ -6,7 +6,7 @@ I use information of the customers in a bank, such as balance, gender, and age, 
    and XGBoosting models on the dataset to predict the customer churn. For the churn prediction task on this dataset,
    tree-based and ensemble models outperforme distance-based models.
 
-2. This bank probably has low saving rate and is not keen on offering investment options. However, this bank probably offer good loan rate.
+2. This bank probably has low saving rate and is not keen on offering investment options. However, this bank probably offers good loan rate.
 
 3. Age and the number of bank products a customer owns are the most relevant features to affect the churn. Customers who are older and own only one bank product tend to quit the bank.
    Customers with two bank producs tend to stay in the bank.
