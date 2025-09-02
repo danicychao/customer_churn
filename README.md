@@ -1,7 +1,8 @@
 # Customer Churn Analysis
-I use information of the customers in a bank, such as balance, gender, and age, to analyze if a customer quits the bank or stays in the bank.
+I use bank customer information, such as balance, gender, and age, to analyze whether a customer leave or remain with the bank.
 
-### Key finding and insights
+## Key finding and insights
+
 1. I apply logistic regression, K-nearest neighbor (KNN), support vector machine (SVM), decision tree, random forest, gradient boosting,
    and XGBoosting models on the dataset to predict the customer churn. For the churn prediction task on this dataset,
    tree-based and ensemble models outperforme distance-based models.
@@ -13,6 +14,6 @@ I use information of the customers in a bank, such as balance, gender, and age, 
 
 4. With my stacked model, stacked by XGBoosting, random forest, and decision tree, we could prevent 71% of the churn and reduce 50% of the loss.
 
-### Data
+## Data
 Data can be downloaded from [here](https://www.kaggle.com/datasets/divu2001/customer-churn-rate/data]).
 
