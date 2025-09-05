@@ -34,9 +34,9 @@ Correlation of features and customer churn:
   
 4. For the customer churn prediction task on this dataset, tree-based (e.g. decision tree) and ensemble models (e.g. random forest, XGBoosting) outperforme distance-based models (e.g. logistic regression, SVM).
 
+<img src="figures/model_comparison.png" style="width:450px;"> <img src="figures/XGB_ROC.png" style="width:450px;">
 
-
-6. After tunning threshold parameter for recall, the stacked model of the best three customer prediction models, **XGBoosting**, **random forest**, and **decision tree**,
+5. After tunning threshold parameter for recall, the stacked model of the best three customer prediction models, **XGBoosting**, **random forest**, and **decision tree**,
    we could prevent 71% of the customer churn and reduce 50% of the loss.
 
 
